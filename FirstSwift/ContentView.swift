@@ -15,7 +15,7 @@ struct ContentView: View {
                 .resizable()
                 .aspectRatio(contentMode: .fit);
             
-            HStack {
+            VStack(alignment: .center, spacing: 50.0) {
                 Text("Hello World!")
                 Text("I am embedded")
             }
