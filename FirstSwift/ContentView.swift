@@ -21,7 +21,6 @@ struct ContentView: View {
             
             HStack(alignment: .center, spacing: 50.0) {
                 Text("Hello World!")
-                Spacer()
                 Text("I am embedded")
             }
             Spacer()
