@@ -47,8 +47,17 @@ struct ContentView: View {
                     
                     //update the score
                     
-                    playerScore += 1
-                    cpuScore += 1
+                    if (playerRand > cpuRand){
+                        playerScore += 1
+                        print("player wins")
+                    } else if (playerRand < cpuRand) {
+                        cpuScore += 1
+                        print("computer wins")
+                    } else {
+                        print("draw")
+                    }
+                    
+
                     
                 }, label: {
                     Image("dealbutton")
