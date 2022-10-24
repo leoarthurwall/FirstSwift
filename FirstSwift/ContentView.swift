@@ -65,12 +65,6 @@ struct ContentView: View {
                 Button(action: {
                     print("you clicked me...")
                 }, label:{
-                    HStack{
-                        Image(systemName: "pencil")
-                            .foregroundColor(Color.white)
-                        Text("Edit")
-                            .foregroundColor(Color.white)
-                    }
                 })
                 Spacer()
                 HStack {
