@@ -9,11 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     
-    var playerCard = "card5"
-    var cpuCard = "card9"
+    @State var playerCard = "card5"
+    @State var cpuCard = "card9"
     
-    var playerScore = 0
-    var cpuScore = 0
+    @State var playerScore = 0
+    @State var cpuScore = 0
     
     var body: some View {
         ZStack {
@@ -36,7 +36,18 @@ struct ContentView: View {
                 }
                 Spacer()
                 Button(action: {
-                    print("Hello world")
+                    
+                    //Generate a random number between 2 and 14
+                    
+                    //update the cards
+                    playerCard = "card12"
+                    cpuCard = "card3"
+                    
+                    //update the score
+                    
+                    playerScore += 1
+                    cpuScore += 1
+                    
                 }, label: {
                     Image("dealbutton")
                 })
