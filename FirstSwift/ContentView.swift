@@ -29,6 +29,9 @@ struct ContentView: View {
                 }
                 Spacer()
                 Image("dealbutton")
+                Button("Click Me", action: {
+                    print("Hello world")
+                })
                 Spacer()
                 HStack {
                     Spacer()
