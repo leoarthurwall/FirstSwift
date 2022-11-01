@@ -2,7 +2,7 @@
 
 Welcome to my first SwiftUI project - The card game. The rules are simple, press the deal button, both you and the computer will be randomly given a card. Whoever get's the highest card (A is high) wins a point. Play to your heart's content.
 
-![Simulator Screen Shot - iPhone 12 Pro Max - 2022-11-01 at 12 05 37](https://user-images.githubusercontent.com/99083396/199220393-5ea96acd-7478-43b0-add9-5df683c802f6.png)
+<img src="https://user-images.githubusercontent.com/99083396/199220393-5ea96acd-7478-43b0-add9-5df683c802f6.png" width="250">
 
 This project was a great opportunity to develop the core foundation skills using XCode and SwiftUI. Some of the key tings I learned were:
 
